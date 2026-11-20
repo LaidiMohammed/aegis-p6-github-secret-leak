@@ -11,3 +11,9 @@ outputs/*
 *.log
 .env
 .vercel
+
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
