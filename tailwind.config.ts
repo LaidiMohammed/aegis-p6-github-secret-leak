@@ -4,7 +4,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: { git: "#0d1117", panel: "#161b22", violet: "#a78bfa", rose: "#fb7185", line: "#30363d" },
-      fontFamily: { mono: ["JetBrains Mono", "Consolas", "monospace"], display: ["Inter", "Arial", "sans-serif"] },
+      fontFamily: { mono: ["var(--font-mono)", "Consolas", "monospace"], display: ["var(--font-sans)", "Arial", "sans-serif"] },
     },
   },
   plugins: [],

@@ -33,7 +33,7 @@ export default function SecretScanner() {
             <div className="dl text-slate-500">1 &nbsp; &lt;?php</div>
             <div className="dl text-slate-400">2 &nbsp; $db_host = <span className="text-emerald-400">'localhost'</span>;</div>
             <div className={`dl add ${scan ? "" : ""}`}>
-              3 &nbsp; $db_pass = <span className={scan ? "secret" : "text-amber-300"}>'sup3rs3cr3t2026'</span>;
+              3 &nbsp; $db_pass = <span className={scan ? "secret" : "text-amber-300"}>'REDACTED_EXAMPLE'</span>;
             </div>
             <div className="dl text-slate-400">4 &nbsp; $db_user = <span className="text-emerald-400">'wp_user'</span>;</div>
           </div>
