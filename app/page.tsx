@@ -1,4 +1,4 @@
-import SecretScanner from "@/components/SecretScanner";
+import Console from "@/components/Console";
 import Reveal from "@/components/Reveal";
 
 const PATTERNS = [
@@ -26,7 +26,7 @@ export default function Page() {
           <Reveal delay={210}><div className="mt-8 flex flex-wrap gap-3"><a href="#scan" className="rounded bg-violet px-6 py-3 font-mono text-xs font-bold uppercase tracking-widest text-git hover:bg-white">Scanner ↓</a><a href="#patterns" className="rounded border border-line px-6 py-3 font-mono text-xs uppercase tracking-widest text-slate-300 hover:border-violet">Les patterns</a></div></Reveal>
           <Reveal delay={280}><div className="mt-10 grid grid-cols-4 gap-4 border-t border-line pt-6">{[["03","repos"],["03","patterns"],["09","tests"],["00","clé en clair"]].map(([n,l])=><div key={l}><div className="text-2xl font-bold text-white">{n}</div><div className="coord text-slate-500">{l}</div></div>)}</div></Reveal>
         </div>
-        <Reveal delay={120}><SecretScanner /></Reveal>
+        <Reveal delay={120}><Console /></Reveal>
       </section>
 
       <section id="patterns" className="mx-auto max-w-7xl px-5 py-14">
